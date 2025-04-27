@@ -47,7 +47,7 @@ int main(void)
 {
       HINSTANCE hInstance = GetModuleHandleA(NULL); /* since we aren't using wWinMain() or WinMain(), we need to grab the HINSTANCE with this function. */
       int program_running = 1;
-      int fullscreen = 0; /* set to '1' if you want fullscreen, '0' if you don't */
+      int fullscreen = 1; /* set to '1' if you want fullscreen, '0' if you don't */
 
 
 
